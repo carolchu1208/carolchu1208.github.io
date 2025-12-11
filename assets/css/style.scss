@@ -1,0 +1,192 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom Portfolio Styling */
+
+/* Global Styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3em;
+}
+
+/* Project Grid Layout */
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+/* Project Cards */
+.project-card {
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 1.5em;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.4em;
+  color: #2c3e50;
+}
+
+.project-category {
+  color: #7f8c8d;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: -0.5em 0 1em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: 1em 0;
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+}
+
+.project-card p {
+  color: #586069;
+  margin: 0.8em 0;
+  line-height: 1.5;
+}
+
+.project-card strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Project Links */
+.project-links {
+  display: flex;
+  gap: 0.8em;
+  margin-top: 1.2em;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.2s;
+  font-size: 0.9em;
+}
+
+.btn:hover {
+  background: #2980b9;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background: #95a5a6;
+}
+
+.btn-secondary:hover {
+  background: #7f8c8d;
+}
+
+/* About Section */
+.about-section {
+  background: #f6f8fa;
+  padding: 2em;
+  border-radius: 8px;
+  margin: 2em 0;
+}
+
+/* Skills List */
+ul {
+  line-height: 1.8;
+}
+
+/* Footer Note */
+.footer-note {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.9em;
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #e1e4e8;
+}
+
+/* Contact Section */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .project-card {
+    padding: 1em;
+  }
+
+  .project-links {
+    flex-direction: column;
+  }
+
+  .btn {
+    text-align: center;
+  }
+}
+
+/* Emoji styling */
+h1, h2, h3 {
+  img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 0.05em 0 0.1em;
+    vertical-align: -0.1em;
+  }
+}

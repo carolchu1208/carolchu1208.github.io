@@ -1,0 +1,29 @@
+# Site Settings
+title: Carol Chu | Data Analytics Portfolio
+description: M.S. in Business Analytics | Data Analytics & Gen-AI Research
+author: Man-Lin (Carol) Chu
+email: manlin.chu1998@gmail.com
+
+# Social Links
+github_username: carolchu1208
+linkedin_username: manlinchu
+
+# Build Settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - projects.md
+  - about.md
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .DS_Store
