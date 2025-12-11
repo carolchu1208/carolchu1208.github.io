@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="project-detail">
+    <header class="project-header">
+        <h1>{{ page.title }}</h1>
+        <p class="project-summary">{{ page.summary }}</p>
+
+        <div class="project-meta">
+            <div class="meta-tags">
+                {% for tag in page.tags %}
+                    <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+
+            <div class="tech-stack-meta">
+                <strong>Tech Stack:</strong> {{ page.tech_stack | join: ', ' }}
+            </div>
+
+            <div class="project-links-header">
+                <a href="{{ page.github_repo }}" target="_blank" class="btn">View Code on GitHub</a>
+                {% if page.paper_link %}
+                    <a href="{{ page.paper_link }}" target="_blank" class="btn btn-secondary">Read Paper</a>
+                {% endif %}
+            </div>
+        </div>
+    </header>
+
+    <div class="project-content">
+        {{ content }}
+    </div>
+
+    <footer class="project-footer">
+        <a href="/" class="back-link">← Back to Portfolio</a>
+    </footer>
+</article>

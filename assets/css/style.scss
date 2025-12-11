@@ -190,3 +190,218 @@ h1, h2, h3 {
     vertical-align: -0.1em;
   }
 }
+
+/* ====================================
+   PROJECT DETAIL PAGE STYLES
+   ==================================== */
+
+.project-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em 1em;
+}
+
+.project-header {
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 2px solid #e1e4e8;
+}
+
+.project-header h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+  color: #2c3e50;
+}
+
+.project-summary {
+  font-size: 1.2em;
+  color: #586069;
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+}
+
+.project-meta {
+  margin-top: 1.5em;
+}
+
+.meta-tags {
+  margin-bottom: 1em;
+}
+
+.tag {
+  display: inline-block;
+  background: #f1f8ff;
+  color: #0366d6;
+  padding: 0.3em 0.8em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+
+.tech-stack-meta {
+  margin: 1em 0;
+  padding: 1em;
+  background: #f6f8fa;
+  border-left: 3px solid #3498db;
+  border-radius: 4px;
+}
+
+.tech-stack-meta strong {
+  color: #2c3e50;
+}
+
+.project-links-header {
+  margin-top: 1.5em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.project-content {
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: #24292e;
+}
+
+.project-content h2 {
+  font-size: 1.8em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3em;
+}
+
+.project-content h3 {
+  font-size: 1.4em;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  color: #2c3e50;
+}
+
+.project-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 2em 0;
+  border-radius: 8px;
+  border: 1px solid #e1e4e8;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+}
+
+.project-content table th {
+  background: #f6f8fa;
+  color: #24292e;
+  font-weight: 600;
+  padding: 0.8em;
+  text-align: left;
+  border: 1px solid #e1e4e8;
+}
+
+.project-content table td {
+  padding: 0.8em;
+  border: 1px solid #e1e4e8;
+}
+
+.project-content table tr:nth-child(even) {
+  background: #f6f8fa;
+}
+
+.project-content pre {
+  background: #f6f8fa;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid #e1e4e8;
+}
+
+.project-content code {
+  background: #f6f8fa;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-family: 'Courier New', monospace;
+}
+
+.project-content pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.project-content ul,
+.project-content ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+.project-content li {
+  margin: 0.5em 0;
+}
+
+.project-content blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 1em;
+  margin: 1.5em 0;
+  color: #586069;
+  font-style: italic;
+}
+
+.project-footer {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 2px solid #e1e4e8;
+}
+
+.back-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for project pages */
+@media (max-width: 768px) {
+  .project-detail {
+    padding: 1em 0.5em;
+  }
+
+  .project-header h1 {
+    font-size: 1.8em;
+  }
+
+  .project-summary {
+    font-size: 1.05em;
+  }
+
+  .project-content {
+    font-size: 1em;
+  }
+
+  .project-content h2 {
+    font-size: 1.5em;
+  }
+
+  .project-content h3 {
+    font-size: 1.2em;
+  }
+
+  .project-links-header {
+    flex-direction: column;
+  }
+
+  .project-content table {
+    font-size: 0.85em;
+  }
+}

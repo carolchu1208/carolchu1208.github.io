@@ -15,42 +15,33 @@ With a **brand strategist background** and expertise in **cutting-edge LLM-based
 
 <div class="project-grid">
 
+{% for project in site.projects %}
   <div class="project-card">
-    <h3>🤖 LLM-Based Multi-Agent Consumer Behavior Simulation</h3>
-    <p class="project-category">Gen-AI Research | Published Paper</p>
-    <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent System" class="project-image">
-    <p>Multi-agent system simulating consumer decisions and marketing strategies using LLM-powered autonomous agents. <strong>Published on arXiv</strong> with 6 co-authors.</p>
-    <p><strong>Tech Stack:</strong> Python, DeepSeek API, Multi-threading, Agent-based Modeling</p>
-    <p><strong>Key Results:</strong> Emergent social behaviors, word-of-mouth diffusion, 20% discount impact analysis</p>
-    <div class="project-links">
-      <a href="https://github.com/carolchu1208/LLM-Based-Generative-Agents-Simulating-Consumer-Decisions" target="_blank" class="btn">View Project</a>
-      <a href="https://arxiv.org/abs/2510.18155" target="_blank" class="btn btn-secondary">Read Paper</a>
-    </div>
-  </div>
+    <h3>{{ project.title }}</h3>
+    <p class="project-category">
+      {% for tag in project.tags limit:2 %}
+        {{ tag }}{% unless forloop.last %} | {% endunless %}
+      {% endfor %}
+    </p>
 
-  <div class="project-card">
-    <h3>🏥 Prostate Cancer Prediction: ML Clinical Decision Support</h3>
-    <p class="project-category">Healthcare ML | Award-Winning</p>
-    <img src="assets/images/prostate-cancer-preview.jpg" alt="Prostate Cancer Prediction" class="project-image">
-    <p><strong>Bronze Prize Winner</strong> - Clark University Analytics Competition. Achieved <strong>87% recall</strong> on 73,530 patients to reduce unnecessary biopsies.</p>
-    <p><strong>Tech Stack:</strong> Python, Scikit-learn, Random Forest, SMOTE, GridSearchCV</p>
-    <p><strong>Key Results:</strong> 87% recall, 82% accuracy, $150-300M potential cost savings</p>
-    <div class="project-links">
-      <a href="https://github.com/carolchu1208/ML_ProstateCancerPrediction" target="_blank" class="btn">View Project</a>
-    </div>
-  </div>
+    {% if project.url contains 'llm-simulation' %}
+      <img src="assets/images/llm-agents-preview.png" alt="{{ project.title }}" class="project-image">
+    {% elsif project.url contains 'prostate' %}
+      <img src="assets/images/prostate-cancer-preview.jpg" alt="{{ project.title }}" class="project-image">
+    {% elsif project.url contains 'ad-click' %}
+      <img src="assets/images/ad-click-preview.png" alt="{{ project.title }}" class="project-image">
+    {% endif %}
 
-  <div class="project-card">
-    <h3>📊 Ad Click Prediction: ML Model Optimization</h3>
-    <p class="project-category">Marketing Analytics | PySpark ML</p>
-    <img src="assets/images/ad-click-preview.png" alt="Ad Click Prediction" class="project-image">
-    <p>Optimized ML model achieving <strong>81% F1-score</strong> despite 48% missing data. Improved from Random Forest to GBT with <strong>60% performance gain</strong>.</p>
-    <p><strong>Tech Stack:</strong> PySpark ML, Gradient Boosted Trees, Feature Engineering, Cross-Validation</p>
-    <p><strong>Key Results:</strong> 96.7% recall, 68% better ROI, 60% F1-score improvement</p>
+    <p>{{ project.summary }}</p>
+
+    <p><strong>Tech Stack:</strong> {{ project.tech_stack | join: ', ' | truncate: 80 }}</p>
+
     <div class="project-links">
-      <a href="https://github.com/carolchu1208/AdClickPrediction_ML_PySpark" target="_blank" class="btn">View Project</a>
+      <a href="{{ project.url }}" class="btn">View Details →</a>
+      <a href="{{ project.github_repo }}" target="_blank" class="btn btn-secondary">GitHub</a>
     </div>
   </div>
+{% endfor %}
 
 </div>
 
@@ -61,16 +52,16 @@ With a **brand strategist background** and expertise in **cutting-edge LLM-based
 I'm a **data analyst** with a unique blend of technical expertise and business acumen. With an M.S. in Business Analytics from Clark University and professional experience partnering with Fortune 500 brands on marketing strategy and analytics, I bring both technical depth and business context to data problems.
 
 **What I Do:**
-- **Machine Learning & AI:** Build predictive models for healthcare, marketing, and behavioral analytics
-- **Gen-AI Research:** Published research on LLM-based multi-agent systems for consumer behavior
-- **Data Engineering:** PySpark pipelines, feature engineering, handling missing data at scale
-- **Business Analytics:** A/B testing, user experience optimization, marketing ROI analysis
+- **LLM & Agentic AI:** Build multi-agent systems for consumer behavior simulation and marketing optimization
+- **Machine Learning & Predictive Analytics:** Develop production-ready models for healthcare, marketing, and business intelligence
+- **Large-Scale Data Engineering:** Design PySpark pipelines, handle missing data at scale, optimize model performance
+- **Business Strategy:** Translate complex data insights into actionable business recommendations
 
 **Technical Skills:**
 - **Languages:** Python, R, SQL
-- **ML/AI:** Scikit-learn, PySpark ML, LLM APIs, Agent-based Modeling
-- **Tools:** Git, Tableau, Jupyter, Virtual Environments
-- **Methods:** Supervised Learning, SMOTE, Cross-Validation, Feature Engineering
+- **ML/AI:** Scikit-learn, PySpark ML, LLM APIs (DeepSeek), Agent-based Modeling, Multi-threading
+- **Methods:** Supervised Learning, SMOTE, Cross-Validation, Feature Engineering, Hyperparameter Tuning
+- **Tools:** Git, Jupyter, Virtual Environments, GridSearchCV
 
 ---
 

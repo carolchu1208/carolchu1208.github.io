@@ -8,6 +8,12 @@ email: manlin.chu1998@gmail.com
 github_username: carolchu1208
 linkedin_username: manlinchu
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 # Build Settings
 markdown: kramdown
 theme: minima
