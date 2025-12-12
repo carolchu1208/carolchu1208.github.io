@@ -4,6 +4,25 @@
 @import "{{ site.theme }}";
 
 /* ====================================
+   FORCE FULL WIDTH - NUCLEAR OPTION
+   ==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body .wrapper,
+body .page-content .wrapper,
+.home .wrapper,
+div.wrapper {
+    max-width: 100vw !important;
+    width: 94vw !important;
+    margin: 0 auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* ====================================
    DARK MODE THEME VARIABLES
    ==================================== */
 
