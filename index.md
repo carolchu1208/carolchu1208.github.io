@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: ""
 ---
 
 # Hi, I'm Carol Chu 👋
@@ -12,8 +12,6 @@ title: Home
 </div>
 
 With a **brand strategist background** and expertise in **cutting-edge LLM-based agentic systems**, I bring a unique perspective to solving complex business challenges. I've delivered **healthcare data ML projects**, collaborated with **Big Tech teams**, and managed **large-scale data pipelines** using PySpark and cloud technologies. My work leverages **agentic workflows and multi-agent AI simulation** to transform decision-making and drive measurable business impact through data science.
-
----
 
 ## Featured Projects
 
@@ -103,8 +101,6 @@ With a **brand strategist background** and expertise in **cutting-edge LLM-based
     </div>
 </div>
 
----
-
 ## About Me
 
 I'm a **data analyst** with a unique blend of technical expertise and business acumen. With an M.S. in Business Analytics from Clark University and professional experience partnering with Fortune 500 brands on marketing strategy and analytics, I bring both technical depth and business context to data problems.
@@ -121,8 +117,6 @@ I'm a **data analyst** with a unique blend of technical expertise and business a
 - **Methods:** Supervised Learning, SMOTE, Cross-Validation, Feature Engineering, Hyperparameter Tuning
 - **Tools:** Git, Jupyter, Virtual Environments, GridSearchCV
 
----
-
 ## Get in Touch
 
 I'm always open to connecting with fellow data professionals, researchers, and teams working on impactful data problems.
@@ -130,7 +124,5 @@ I'm always open to connecting with fellow data professionals, researchers, and t
 📧 **Email:** [manlin.chu1998@gmail.com](mailto:manlin.chu1998@gmail.com)
 💼 **LinkedIn:** [linkedin.com/in/manlinchu](https://www.linkedin.com/in/manlinchu/)
 💻 **GitHub:** [github.com/carolchu1208](https://github.com/carolchu1208)
-
----
 
 <p class="footer-note">Built with Jekyll & GitHub Pages | © 2024 Carol Chu</p>
