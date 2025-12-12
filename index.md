@@ -23,27 +23,25 @@ With a **brand strategist background** and expertise in **cutting-edge LLM-based
 </div>
 
 <div class="featured-project-large" data-category="ai-llm marketing">
-    <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent System Diagram" class="featured-image-large">
+    <div class="featured-left">
+        <div>
+            <p style="font-size: 0.85em; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Recent AI & LLM Research</p>
+            <h2 style="font-size: 2.2em; line-height: 1.2; margin: 0;">LLM-BASED SIMULATION RESEARCH</h2>
+        </div>
+        <p style="color: var(--text-muted); line-height: 1.7;">Published research modeling complex consumer decisions and social dynamics using LLM-powered autonomous agents. Pre-evaluate marketing strategies in virtual environments.</p>
+        <a href="/projects/llm-simulation/" class="button primary-button">View Research</a>
+    </div>
 
-    <div class="featured-content">
-        <h2>🤖 LLM-Based Multi-Agent Consumer Behavior Simulation</h2>
-        <div class="project-tags">
-            <span class="tag-label">Gen-AI Research</span>
-            <span class="tag-label">Marketing Science</span>
-            <span class="tag-label">Published Paper</span>
+    <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent System" class="featured-image-large">
+
+    <div class="featured-right">
+        <div class="featured-quote">
+            Multi-agent system simulating consumer decisions and social dynamics using LLM-powered generative agents to pre-evaluate marketing strategies. A must-read for AI-LLM Marketing Scientist roles.
+            <div class="featured-attribution">
+                Published on arXiv | 6 Co-Authors
+            </div>
         </div>
-        <p>Published research modeling complex consumer decisions and social dynamics using LLM-powered generative agents to pre-evaluate marketing strategies. <strong>A must-read for AI-LLM Marketing Scientist roles.</strong></p>
-        <p class="tech-stack-list">
-            <strong>Tech Stack:</strong> Python, DeepSeek API, Multi-threading, Agent-based Modeling, JSON Output Parsing
-        </p>
-        <p class="key-results">
-            <strong>Key Results:</strong> Emergent social behaviors, word-of-mouth diffusion, 20% discount impact analysis
-        </p>
-        <div class="card-actions">
-            <a href="/projects/llm-simulation/" class="button primary-button">View Full Case Study</a>
-            <a href="https://arxiv.org/abs/2510.18155" class="button secondary-button" target="_blank">Read Paper (arXiv)</a>
-            <a href="https://github.com/carolchu1208/LLM-Based-Generative-Agents-Simulating-Consumer-Decisions" class="button secondary-button" target="_blank">Code (GitHub)</a>
-        </div>
+        <a href="https://arxiv.org/abs/2510.18155" class="button secondary-button" target="_blank">View Paper</a>
     </div>
 </div>
 
