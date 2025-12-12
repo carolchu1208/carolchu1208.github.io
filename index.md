@@ -5,7 +5,11 @@ title: Home
 
 # Hi, I'm Carol Chu 👋
 
-**AI-Driven Analytics Specialist | M.S. in Business Analytics | LLM & Agentic AI Researcher**
+<div class="competency-badges">
+    <span class="badge">AI-Driven Analytics Specialist</span>
+    <span class="badge">M.S. in Business Analytics</span>
+    <span class="badge">LLM & Agentic AI Researcher</span>
+</div>
 
 With a **brand strategist background** and expertise in **cutting-edge LLM-based agentic systems**, I bring a unique perspective to solving complex business challenges. I've delivered **healthcare data ML projects**, collaborated with **Big Tech teams**, and managed **large-scale data pipelines** using PySpark and cloud technologies. My work leverages **agentic workflows and multi-agent AI simulation** to transform decision-making and drive measurable business impact through data science.
 
@@ -13,32 +17,39 @@ With a **brand strategist background** and expertise in **cutting-edge LLM-based
 
 ## Featured Projects
 
-<div class="project-grid">
+<div class="featured-projects">
 
 {% for project in site.projects %}
   <div class="project-card">
-    <h3>{{ project.title }}</h3>
-    <p class="project-category">
-      {% for tag in project.tags limit:2 %}
-        {{ tag }}{% unless forloop.last %} | {% endunless %}
-      {% endfor %}
-    </p>
+    <a href="{{ project.url }}" class="project-link">
+      {% if project.url contains 'llm-simulation' %}
+        <img src="assets/images/llm-agents-preview.png" alt="{{ project.title }}" class="project-image">
+      {% elsif project.url contains 'prostate' %}
+        <img src="assets/images/prostate-cancer-preview.jpg" alt="{{ project.title }}" class="project-image">
+      {% elsif project.url contains 'ad-click' %}
+        <img src="assets/images/ad-click-preview.png" alt="{{ project.title }}" class="project-image">
+      {% endif %}
+    </a>
 
-    {% if project.url contains 'llm-simulation' %}
-      <img src="assets/images/llm-agents-preview.png" alt="{{ project.title }}" class="project-image">
-    {% elsif project.url contains 'prostate' %}
-      <img src="assets/images/prostate-cancer-preview.jpg" alt="{{ project.title }}" class="project-image">
-    {% elsif project.url contains 'ad-click' %}
-      <img src="assets/images/ad-click-preview.png" alt="{{ project.title }}" class="project-image">
-    {% endif %}
+    <div class="card-content">
+      <h3>{{ project.title }}</h3>
 
-    <p>{{ project.summary }}</p>
+      <div class="project-tags">
+        {% for tag in project.tags limit:2 %}
+          <span class="tag-label">{{ tag }}</span>
+        {% endfor %}
+      </div>
 
-    <p><strong>Tech Stack:</strong> {{ project.tech_stack | join: ', ' | truncate: 80 }}</p>
+      <p>{{ project.summary }}</p>
 
-    <div class="project-links">
-      <a href="{{ project.url }}" class="btn">View Details →</a>
-      <a href="{{ project.github_repo }}" target="_blank" class="btn btn-secondary">GitHub</a>
+      <p class="tech-stack-list">
+        <strong>Tech Stack:</strong> {{ project.tech_stack | join: ', ' }}
+      </p>
+
+      <div class="card-actions">
+        <a href="{{ project.url }}" class="button primary-button">View Case Study</a>
+        <a href="{{ project.github_repo }}" target="_blank" class="button secondary-button">Code (GitHub)</a>
+      </div>
     </div>
   </div>
 {% endfor %}
