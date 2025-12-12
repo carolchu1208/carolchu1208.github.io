@@ -493,26 +493,82 @@ ul {
 }
 
 .project-content pre {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 1em;
-    border-radius: 6px;
+    background: #2d2d2d;
+    padding: 1.5em;
+    border-radius: 8px;
     overflow-x: auto;
-    border: 1px solid var(--border-color);
+    border: 1px solid #404040;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .project-content code {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
+    background: #2d2d2d;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
     font-size: 0.9em;
-    font-family: 'Courier New', monospace;
-    color: var(--accent-color);
+    font-family: 'Fira Code', 'Courier New', monospace;
+    color: #a6e22e;
+    border: 1px solid #404040;
 }
 
 .project-content pre code {
     background: transparent;
     padding: 0;
-    color: var(--text-light);
+    color: #e8e8e8;
+    border: none;
+    display: block;
+    line-height: 1.6;
+}
+
+/* Syntax highlighting colors */
+.project-content pre code .comment {
+    color: #75715e;
+    font-style: italic;
+}
+
+.project-content pre code .keyword {
+    color: #66d9ef;
+}
+
+.project-content pre code .string {
+    color: #e6db74;
+}
+
+.project-content pre code .number {
+    color: #ae81ff;
+}
+
+.project-content pre code .function {
+    color: #a6e22e;
+}
+
+/* Copy button for code blocks */
+.copy-code-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 6px 12px;
+    background: rgba(0, 188, 212, 0.15);
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.copy-code-button:hover {
+    background: var(--accent-color);
+    color: var(--bg-main);
+}
+
+.copy-code-button.copied {
+    background: #4caf50;
+    border-color: #4caf50;
+    color: white;
 }
 
 .project-content ul,
