@@ -3,6 +3,13 @@ layout: home
 title: ""
 ---
 
+<style>
+.wrapper {
+    max-width: none !important;
+    width: 94% !important;
+}
+</style>
+
 # Hi, I'm Carol Chu 👋
 
 <div class="competency-badges">
