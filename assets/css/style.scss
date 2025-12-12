@@ -126,6 +126,7 @@ a:hover {
 
 .featured-project-large {
     display: flex;
+    flex-direction: column;
     background-color: var(--bg-card);
     border-radius: 12px;
     margin-bottom: 40px;
@@ -141,15 +142,17 @@ a:hover {
 }
 
 .featured-image-large {
-    width: 40%;
+    width: 100%;
+    max-height: 400px;
     object-fit: contain;
     border-radius: 8px;
-    margin-right: 30px;
+    margin-bottom: 25px;
     border: 1px solid var(--border-color);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .featured-content {
-    width: 60%;
+    width: 100%;
 }
 
 .featured-content h2 {
@@ -613,18 +616,11 @@ ul {
 
 @media (max-width: 968px) {
     .featured-project-large {
-        flex-direction: column;
         padding: 20px;
     }
 
     .featured-image-large {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .featured-content {
-        width: 100%;
+        max-height: 300px;
     }
 }
 
