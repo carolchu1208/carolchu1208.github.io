@@ -29,6 +29,16 @@ body {
     line-height: 1.6;
 }
 
+/* Override theme container width to use full width */
+.wrapper,
+.container,
+.page-content,
+.home {
+    max-width: 100% !important;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 h1, h2, h3 {
     color: var(--text-light);
     font-weight: 600;
@@ -127,18 +137,15 @@ a:hover {
 .featured-project-large {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 50px;
     align-items: start;
     background-color: var(--bg-card);
     border-radius: 12px;
     margin-bottom: 40px;
-    padding: 50px;
+    padding: 60px;
     box-shadow: 0 8px 20px var(--shadow-color);
     border: 1px solid var(--border-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .featured-project-large:hover {
