@@ -24,17 +24,15 @@ With a **brand strategist background** and expertise in **cutting-edge LLM-based
 
 <div class="featured-project-large" data-category="ai-llm marketing">
     <div class="featured-left">
-        <div>
-            <p style="font-size: 0.85em; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Recent AI & LLM Research</p>
-            <h2 style="font-size: 2.2em; line-height: 1.2; margin: 0;">LLM-BASED SIMULATION RESEARCH</h2>
-        </div>
-        <p style="color: var(--text-muted); line-height: 1.7;">Published research modeling complex consumer decisions and social dynamics using LLM-powered autonomous agents. Pre-evaluate marketing strategies in virtual environments.</p>
+        <p style="font-size: 0.85em; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Recent AI & LLM Research</p>
+        <h2 style="font-size: 2.2em; line-height: 1.2; margin: 0 0 20px 0;">LLM-BASED SIMULATION RESEARCH</h2>
+        <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 30px;">Published research modeling complex consumer decisions and social dynamics using LLM-powered autonomous agents. Pre-evaluate marketing strategies in virtual environments.</p>
         <a href="/projects/llm-simulation/" class="button primary-button">View Research</a>
     </div>
 
-    <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent System" class="featured-image-large">
-
     <div class="featured-right">
+        <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent System" class="featured-image-large">
+
         <div class="featured-quote">
             Multi-agent system simulating consumer decisions and social dynamics using LLM-powered generative agents to pre-evaluate marketing strategies. A must-read for AI-LLM Marketing Scientist roles.
             <div class="featured-attribution">
