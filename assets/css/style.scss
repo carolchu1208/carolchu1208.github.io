@@ -88,6 +88,22 @@ h1 {
     margin-bottom: 0.5em;
 }
 
+.page-heading {
+    text-align: center;
+}
+
+/* Site Title Styling */
+.site-title {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+.site-header .wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 h2 {
     font-size: 1.8em;
     margin-top: 2.5em;
