@@ -135,38 +135,46 @@ a:hover {
 }
 
 /* ====================================
-   PROJECT FILTERS
+   PROJECT FILTERS (FOLDER TABS)
    ==================================== */
 
 .project-filters {
-    margin: 1.5em 0 2em 0;
+    margin: 1.5em 0 0 0;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     flex-wrap: wrap;
+    position: relative;
+    z-index: 10;
 }
 
 .filter-button {
-    padding: 8px 16px;
-    background-color: transparent;
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.03);
     color: var(--text-muted);
     border: 1px solid var(--border-color);
-    border-radius: 6px;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
     font-size: 0.9em;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: -1px;
 }
 
 .filter-button:hover {
     background-color: rgba(0, 188, 212, 0.1);
     color: var(--accent-color);
-    border-color: var(--accent-color);
+    transform: translateY(-2px);
 }
 
 .filter-button.active {
-    background-color: var(--accent-color);
-    color: var(--bg-main);
-    border-color: var(--accent-color);
+    background-color: var(--bg-card);
+    color: var(--accent-color);
+    border-color: var(--border-color);
+    border-bottom: 1px solid var(--bg-card);
+    z-index: 20;
+    font-weight: 600;
 }
 
 /* ====================================
@@ -179,8 +187,9 @@ a:hover {
     gap: 50px;
     align-items: start;
     background-color: var(--bg-card);
-    border-radius: 12px;
+    border-radius: 0 12px 12px 12px;
     margin-bottom: 40px;
+    margin-top: 0;
     padding: 60px;
     box-shadow: 0 8px 20px var(--shadow-color);
     border: 1px solid var(--border-color);
@@ -275,7 +284,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 3em;
 }
 
