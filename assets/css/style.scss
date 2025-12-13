@@ -103,6 +103,20 @@ h1 {
 .site-header .wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: visible;
+}
+
+/* Ensure social icons display fully */
+.social-media-list {
+    overflow: visible;
+}
+
+.social-media-list li,
+.social-media-list a,
+.social-media-list svg {
+    overflow: visible;
 }
 
 h2 {
