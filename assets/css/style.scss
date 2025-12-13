@@ -282,11 +282,9 @@ a:hover {
 }
 
 .key-results {
-    padding: 1em;
-    background: rgba(45, 106, 79, 0.05);
-    border-left: 3px solid var(--accent-color);
-    border-radius: 4px;
-    margin: 1.5em 0 !important;
+    padding: 0;
+    background: transparent;
+    margin: 1em 0 !important;
 }
 
 .key-results strong {
@@ -390,12 +388,10 @@ a:hover {
    ==================================== */
 
 .tech-stack-list {
-    font-size: 0.9em;
-    padding: 0.8em;
-    background: rgba(45, 106, 79, 0.05);
-    border-left: 3px solid var(--accent-color);
-    border-radius: 4px;
-    margin: 1em 0 !important;
+    font-size: 0.95em;
+    padding: 0;
+    background: transparent;
+    margin: 0.5em 0 !important;
     color: var(--text-muted);
 }
 
@@ -492,9 +488,9 @@ ul {
 }
 
 .project-header {
-    margin-bottom: 3em;
-    padding-bottom: 2em;
-    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 2.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .project-header h1 {
@@ -532,11 +528,9 @@ ul {
 }
 
 .tech-stack-meta {
-    margin: 1em 0;
-    padding: 1em;
-    background: rgba(45, 106, 79, 0.05);
-    border-left: 3px solid var(--accent-color);
-    border-radius: 4px;
+    margin: 0.5em 0;
+    padding: 0;
+    background: transparent;
     color: var(--text-muted);
 }
 
@@ -558,12 +552,11 @@ ul {
 }
 
 .project-content h2 {
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin-top: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 0.8em;
     color: var(--text-dark);
-    border-bottom: 2px solid var(--accent-color);
-    padding-bottom: 0.3em;
+    font-weight: 600;
 }
 
 .project-content h3 {
@@ -698,8 +691,8 @@ ul {
 }
 
 .project-content blockquote {
-    border-left: 4px solid var(--accent-color);
-    padding-left: 1em;
+    border-left: 2px solid var(--border-color);
+    padding-left: 1.2em;
     margin: 1.5em 0;
     color: var(--text-muted);
     font-style: italic;
@@ -707,8 +700,8 @@ ul {
 
 .project-footer {
     margin-top: 3em;
-    padding-top: 2em;
-    border-top: 2px solid var(--border-color);
+    padding-top: 1.5em;
+    border-top: 1px solid var(--border-color);
 }
 
 .back-link {
