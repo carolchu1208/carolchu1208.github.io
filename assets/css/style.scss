@@ -114,9 +114,24 @@ h1 {
 }
 
 .social-media-list li,
-.social-media-list a,
-.social-media-list svg {
+.social-media-list a {
     overflow: visible;
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-media-list svg,
+.svg-icon,
+.site-footer svg,
+.site-header svg {
+    overflow: visible;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor;
 }
 
 h2 {
@@ -442,13 +457,13 @@ a:hover {
 
 .primary-button {
     background-color: var(--accent-color);
-    color: var(--bg-main);
+    color: #ffffff;
     border: 1px solid var(--accent-color);
 }
 
 .primary-button:hover {
     background-color: var(--accent-hover);
-    color: var(--bg-main);
+    color: #ffffff;
 }
 
 .secondary-button {
