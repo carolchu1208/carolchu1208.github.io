@@ -869,51 +869,217 @@ h1, h2, h3 {
 }
 
 /* ====================================
-   APPLE-STYLE HERO SECTION
+   APPLE-STYLE VISUAL HERO
    ==================================== */
 
-.hero-section {
+.hero-visual {
     text-align: center;
-    padding: 4em 2em 2em 2em;
-    max-width: 800px;
+    padding: 3em 2em 2em 2em;
+    background: linear-gradient(180deg, var(--bg-main) 0%, #e8e6e1 100%);
+}
+
+.hero-title {
+    font-size: 3.5em;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.hero-tagline {
+    font-size: 1.3em;
+    color: var(--text-muted);
+    margin: 0.5em 0 1.5em 0;
+}
+
+.hero-image-container {
+    max-width: 600px;
     margin: 0 auto;
 }
 
-.hero-headline {
-    font-size: 2.8em;
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* ====================================
+   FLAGSHIP SECTION (Main Product)
+   ==================================== */
+
+.flagship-section {
+    text-align: center;
+    padding: 4em 2em;
+    background: var(--bg-card);
+    border-top: 1px solid var(--border-color);
+}
+
+.section-label {
+    font-size: 0.85em;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    margin: 0 0 0.5em 0;
+}
+
+.flagship-title {
+    font-size: 3em;
     font-weight: 600;
     color: var(--text-dark);
-    margin-bottom: 0.5em;
-    line-height: 1.2;
+    margin: 0;
     letter-spacing: -0.5px;
 }
 
-.hero-subheadline {
-    font-size: 1.3em;
+.flagship-tagline {
+    font-size: 1.2em;
     color: var(--text-muted);
-    margin-bottom: 1.5em;
+    margin: 0.5em 0 1.5em 0;
+}
+
+.flagship-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 2em;
+}
+
+.flagship-image-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.flagship-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.flagship-meta {
+    font-size: 0.9em;
+    color: var(--text-muted);
+    margin-top: 1.5em;
+}
+
+/* ====================================
+   PRODUCTS GRID (Secondary Cards)
+   ==================================== */
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 2em;
+    background: var(--bg-main);
+}
+
+.product-card {
+    text-align: center;
+    padding: 3em 2em;
+    background: var(--bg-card);
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+}
+
+.product-image-container {
+    max-width: 280px;
+    margin: 0 auto 1.5em auto;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.02);
+}
+
+.product-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin: 0 0 0.3em 0;
+}
+
+.product-tagline {
+    font-size: 1em;
+    color: var(--text-muted);
+    margin: 0 0 1.2em 0;
     line-height: 1.5;
 }
 
-.hero-points {
-    text-align: center;
+.product-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-.hero-points p {
-    font-size: 1.05em;
+/* ====================================
+   FOCUS SECTION
+   ==================================== */
+
+.focus-section {
+    text-align: center;
+    padding: 3em 2em;
+    background: var(--bg-card);
+    border-top: 1px solid var(--border-color);
+}
+
+.section-heading {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin: 0 0 1em 0;
+}
+
+.focus-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.focus-tag {
+    font-size: 0.95em;
     color: var(--text-muted);
-    margin: 0.4em 0;
-    line-height: 1.6;
+    padding: 0.6em 1.2em;
+    background: var(--bg-main);
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
 }
 
-.value-statement {
+/* ====================================
+   SKILLS SECTION
+   ==================================== */
+
+.skills-section {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    padding: 3em 2em;
+    background: var(--bg-main);
+    border-top: 1px solid var(--border-color);
+}
+
+.skill-col {
     text-align: center;
-    font-size: 1.4em;
-    font-weight: 500;
-    color: var(--accent-color);
-    padding: 2em 0;
+}
+
+.skill-col h4 {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin: 0 0 0.3em 0;
+}
+
+.skill-col p {
+    font-size: 0.9em;
+    color: var(--text-muted);
     margin: 0;
-    letter-spacing: 0.3px;
 }
 
 /* ====================================
@@ -1063,28 +1229,52 @@ h1, h2, h3 {
    ==================================== */
 
 @media (max-width: 768px) {
-    .hero-headline {
-        font-size: 2em;
+    .hero-title {
+        font-size: 2.5em;
     }
 
-    .hero-subheadline {
+    .hero-tagline {
         font-size: 1.1em;
     }
 
-    .value-statement {
-        font-size: 1.2em;
+    .flagship-title {
+        font-size: 2.2em;
     }
 
-    .project-title {
-        font-size: 1.6em;
+    .flagship-tagline {
+        font-size: 1em;
     }
 
-    .focus-grid {
+    .flagship-buttons,
+    .product-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products-grid {
         grid-template-columns: 1fr;
+        gap: 15px;
     }
 
-    .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5em;
+    .product-card {
+        padding: 2em 1.5em;
+    }
+
+    .product-title {
+        font-size: 1.5em;
+    }
+
+    .skills-section {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .focus-list {
+        gap: 8px;
+    }
+
+    .focus-tag {
+        font-size: 0.85em;
+        padding: 0.5em 1em;
     }
 }
