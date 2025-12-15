@@ -10,43 +10,50 @@ title: ""
 }
 </style>
 
-# Hi, I'm Carol Chu 👋
-
-<div class="competency-badges">
-    <span class="badge">AI-Driven Analytics Specialist</span>
-    <span class="badge">M.S. in Business Analytics</span>
-    <span class="badge">LLM & Agentic AI Researcher</span>
+<div class="hero-section">
+    <h1 class="hero-headline">Data Analytics. Marketing Insight. AI Research.</h1>
+    <p class="hero-subheadline">Analytics-driven solutions for understanding consumers and testing marketing strategies.</p>
+    <div class="hero-points">
+        <p>Built on data analytics, machine learning, and AI.</p>
+        <p>Informed by PR agency and global HQ marketing experience.</p>
+        <p>Designed for real business decisions.</p>
+    </div>
 </div>
 
-With a **brand strategist background** and expertise in **cutting-edge LLM-based agentic systems**, I bring a unique perspective to solving complex business challenges. I've delivered **healthcare data ML projects**, collaborated with **Big Tech teams**, and managed **large-scale data pipelines** using PySpark and cloud technologies. My work leverages **agentic workflows and multi-agent AI simulation** to transform decision-making and drive measurable business impact through data science.
+<p class="value-statement">Turning data and AI into practical marketing insight.</p>
 
-## Featured Projects
+---
+
+## Projects
+
+Selected projects demonstrating analytics, machine learning, and AI applied to business problems.
 
 <div class="project-filters">
-    <button class="filter-button active" data-filter="all">All Projects</button>
-    <button class="filter-button" data-filter="ai-llm">Gen-AI & LLM</button>
-    <button class="filter-button" data-filter="marketing">Marketing Science</button>
-    <button class="filter-button" data-filter="healthcare">Healthcare ML</button>
+    <button class="filter-button active" data-filter="all">All</button>
+    <button class="filter-button" data-filter="ai-llm">AI & LLM</button>
+    <button class="filter-button" data-filter="marketing">Marketing</button>
+    <button class="filter-button" data-filter="healthcare">Healthcare</button>
 </div>
 
 <div class="featured-project-large" data-category="ai-llm marketing">
     <div class="featured-left">
-        <p style="font-size: 0.85em; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Recent AI & LLM Research</p>
-        <h2 style="font-size: 2.2em; line-height: 1.2; margin: 0 0 20px 0;">LLM-BASED SIMULATION RESEARCH</h2>
-        <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 30px;">A marketing simulation using AI agents in a sandbox environment to test marketing strategy effectiveness and observe consumer behavior. LLM-powered agents simulate real decision-making, thought evolution, and social dynamics.</p>
-        <a href="/projects/llm-simulation/" class="button primary-button">View Research</a>
-    </div>
-
-    <div class="featured-right">
-        <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent System" class="featured-image-large">
-
-        <div class="featured-quote">
-            Multi-agent system simulating consumer decisions and social dynamics using LLM-powered generative agents to pre-evaluate marketing strategies in virtual environments before real-world deployment.
-            <div class="featured-attribution">
-                Published October 2024 on arXiv
-            </div>
+        <p class="project-label">Flagship Project</p>
+        <h2 class="project-title">LLM Agent Sandbox for Marketing Strategy Testing</h2>
+        <ul class="apple-list">
+            <li>A simulation environment powered by AI agents.</li>
+            <li>Models consumer behavior, interaction, and decision patterns.</li>
+            <li>Enables marketing strategies to be tested before real-world execution.</li>
+            <li>Reduces cost, time, and risk compared to traditional experiments.</li>
+            <li>Supports strategy evaluation before budget commitment.</li>
+        </ul>
+        <p class="project-meta-info">Published October 2024 on arXiv</p>
+        <div class="card-actions">
+            <a href="/projects/llm-simulation/" class="button primary-button">View Details</a>
+            <a href="https://arxiv.org/abs/2510.18155" class="button secondary-button" target="_blank">Read Paper</a>
         </div>
-        <a href="https://arxiv.org/abs/2510.18155" class="button secondary-button" target="_blank">View Paper</a>
+    </div>
+    <div class="featured-right">
+        <img src="assets/images/llm-agents-preview.png" alt="LLM Agent Sandbox" class="featured-image-large">
     </div>
 </div>
 
@@ -55,24 +62,21 @@ With a **brand strategist background** and expertise in **cutting-edge LLM-based
         <a href="/projects/prostate-cancer/" class="project-link">
             <img src="assets/images/prostate-cancer-preview.jpg" alt="Prostate Cancer Prediction" class="project-image">
         </a>
-
         <div class="card-content">
-            <h3>🏥 Prostate Cancer Prediction</h3>
-
+            <h3>Prostate Cancer Prediction</h3>
             <div class="project-tags">
                 <span class="tag-label">Healthcare ML</span>
                 <span class="tag-label">Award-Winning</span>
             </div>
-
-            <p>ML clinical decision support achieving <strong>87% recall</strong> on 73,530 patients to reduce unnecessary biopsies. <strong>Bronze Prize Winner</strong> - Clark University Analytics Competition.</p>
-
-            <p class="tech-stack-list">
-                <strong>Tech Stack:</strong> Python, Scikit-learn, Random Forest, SMOTE, GridSearchCV
-            </p>
-
+            <ul class="apple-list-small">
+                <li>Clinical decision support for biopsy recommendations.</li>
+                <li>87% recall on 73,530 patient records.</li>
+                <li>Bronze Prize, Clark University Analytics Competition.</li>
+            </ul>
+            <p class="tech-stack-list">Python, Scikit-learn, Random Forest, SMOTE</p>
             <div class="card-actions">
-                <a href="/projects/prostate-cancer/" class="button primary-button">View Case Study</a>
-                <a href="https://github.com/carolchu1208/ML_ProstateCancerPrediction" target="_blank" class="button secondary-button">Code (GitHub)</a>
+                <a href="/projects/prostate-cancer/" class="button primary-button">View Details</a>
+                <a href="https://github.com/carolchu1208/ML_ProstateCancerPrediction" target="_blank" class="button secondary-button">GitHub</a>
             </div>
         </div>
     </div>
@@ -81,43 +85,73 @@ With a **brand strategist background** and expertise in **cutting-edge LLM-based
         <a href="/projects/ad-click-prediction/" class="project-link">
             <img src="assets/images/ad-click-preview.png" alt="Ad Click Prediction" class="project-image">
         </a>
-
         <div class="card-content">
-            <h3>📊 Ad Click Prediction</h3>
-
+            <h3>Ad Click Prediction</h3>
             <div class="project-tags">
                 <span class="tag-label">Marketing Analytics</span>
-                <span class="tag-label">PySpark ML</span>
+                <span class="tag-label">PySpark</span>
             </div>
-
-            <p>Optimized ML model achieving <strong>81% F1-score</strong> despite 48% missing data. Demonstrated <strong>60% performance improvement</strong> through advanced PySpark techniques.</p>
-
-            <p class="tech-stack-list">
-                <strong>Tech Stack:</strong> PySpark ML, Gradient Boosted Trees, Feature Engineering, Cross-Validation
-            </p>
-
+            <ul class="apple-list-small">
+                <li>Predictive model for ad engagement optimization.</li>
+                <li>81% F1-score with 48% missing data handled.</li>
+                <li>60% performance improvement through feature engineering.</li>
+            </ul>
+            <p class="tech-stack-list">PySpark ML, Gradient Boosted Trees, Cross-Validation</p>
             <div class="card-actions">
-                <a href="/projects/ad-click-prediction/" class="button primary-button">View Case Study</a>
-                <a href="https://github.com/carolchu1208/AdClickPrediction_ML_PySpark" target="_blank" class="button secondary-button">Code (GitHub)</a>
+                <a href="/projects/ad-click-prediction/" class="button primary-button">View Details</a>
+                <a href="https://github.com/carolchu1208/AdClickPrediction_ML_PySpark" target="_blank" class="button secondary-button">GitHub</a>
             </div>
         </div>
     </div>
 </div>
 
-## About Me
+---
 
-I'm a **data analyst** with a unique blend of technical expertise and business acumen. With an M.S. in Business Analytics from Clark University and professional experience partnering with Fortune 500 brands on marketing strategy and analytics, I bring both technical depth and business context to data problems.
+## Focus Areas
 
-**What I Do:**
-- **LLM & Agentic AI:** Build multi-agent systems for consumer behavior simulation and marketing optimization
-- **Machine Learning & Predictive Analytics:** Develop production-ready models for healthcare, marketing, and business intelligence
-- **Large-Scale Data Engineering:** Design PySpark pipelines, handle missing data at scale, optimize model performance
-- **Business Strategy:** Translate complex data insights into actionable business recommendations
+<div class="focus-grid">
+    <div class="focus-item">Consumer behavior analysis</div>
+    <div class="focus-item">Marketing strategy evaluation</div>
+    <div class="focus-item">AI and simulation for decision testing</div>
+    <div class="focus-item">Analytics for business impact</div>
+</div>
 
-**Technical Skills:**
-- **Languages:** Python, R, SQL
-- **ML/AI:** Scikit-learn, PySpark ML, LLM APIs (DeepSeek), Agent-based Modeling, Multi-threading
-- **Methods:** Supervised Learning, SMOTE, Cross-Validation, Feature Engineering, Hyperparameter Tuning
-- **Tools:** Git, Jupyter, Virtual Environments, GridSearchCV
+---
+
+## Background
+
+<div class="background-section">
+    <p>Data analytics professional with strong business and marketing context.</p>
+    <p>Experience includes PR agency work and global HQ marketing teams.</p>
+    <p>Focus areas: consumer behavior analysis, marketing analytics, and AI-driven decision support.</p>
+    <p>M.S. in Business Analytics, Clark University.</p>
+</div>
+
+---
+
+## Skills
+
+<div class="skills-grid">
+    <div class="skill-group">
+        <h4>Analytics & Programming</h4>
+        <p>Python, R, SQL</p>
+    </div>
+    <div class="skill-group">
+        <h4>Machine Learning & AI</h4>
+        <p>Predictive modeling, PySpark, LLM-based systems</p>
+    </div>
+    <div class="skill-group">
+        <h4>Data Visualization</h4>
+        <p>Dashboards, reporting, insight communication</p>
+    </div>
+    <div class="skill-group">
+        <h4>Marketing & Business</h4>
+        <p>Consumer behavior, campaign evaluation, PR insights</p>
+    </div>
+</div>
+
+---
+
+<p class="closing-statement">Designed to support better decisions before execution.</p>
 
 <p class="footer-note">Built with Jekyll & GitHub Pages | © 2024 Carol Chu</p>

@@ -867,3 +867,224 @@ h1, h2, h3 {
 .hidden {
     display: none !important;
 }
+
+/* ====================================
+   APPLE-STYLE HERO SECTION
+   ==================================== */
+
+.hero-section {
+    text-align: center;
+    padding: 4em 2em 2em 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-headline {
+    font-size: 2.8em;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+.hero-subheadline {
+    font-size: 1.3em;
+    color: var(--text-muted);
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+.hero-points {
+    text-align: center;
+}
+
+.hero-points p {
+    font-size: 1.05em;
+    color: var(--text-muted);
+    margin: 0.4em 0;
+    line-height: 1.6;
+}
+
+.value-statement {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: var(--accent-color);
+    padding: 2em 0;
+    margin: 0;
+    letter-spacing: 0.3px;
+}
+
+/* ====================================
+   APPLE-STYLE LISTS
+   ==================================== */
+
+.apple-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5em 0;
+}
+
+.apple-list li {
+    font-size: 1.05em;
+    color: var(--text-muted);
+    padding: 0.5em 0;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.apple-list li:last-child {
+    border-bottom: none;
+}
+
+.apple-list-small {
+    list-style: none;
+    padding: 0;
+    margin: 0.8em 0;
+}
+
+.apple-list-small li {
+    font-size: 0.95em;
+    color: var(--text-muted);
+    padding: 0.3em 0;
+    line-height: 1.5;
+}
+
+/* ====================================
+   PROJECT LABELS & META
+   ==================================== */
+
+.project-label {
+    font-size: 0.8em;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+}
+
+.project-title {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin: 0 0 1em 0;
+    line-height: 1.2;
+}
+
+.project-meta-info {
+    font-size: 0.9em;
+    color: var(--text-muted);
+    margin: 1.5em 0;
+}
+
+/* ====================================
+   FOCUS AREAS GRID
+   ==================================== */
+
+.focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5em;
+    margin: 2em 0;
+}
+
+.focus-item {
+    font-size: 1.1em;
+    color: var(--text-dark);
+    padding: 1.2em 1.5em;
+    background: var(--bg-card);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+
+/* ====================================
+   BACKGROUND SECTION
+   ==================================== */
+
+.background-section {
+    max-width: 700px;
+    margin: 1.5em auto;
+    text-align: center;
+}
+
+.background-section p {
+    font-size: 1.05em;
+    color: var(--text-muted);
+    margin: 0.6em 0;
+    line-height: 1.6;
+}
+
+/* ====================================
+   SKILLS GRID
+   ==================================== */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+    margin: 2em 0;
+}
+
+.skill-group {
+    text-align: center;
+}
+
+.skill-group h4 {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 0.5em;
+}
+
+.skill-group p {
+    font-size: 0.95em;
+    color: var(--text-muted);
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* ====================================
+   CLOSING STATEMENT
+   ==================================== */
+
+.closing-statement {
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    color: var(--text-muted);
+    padding: 2em 0;
+    margin: 0;
+}
+
+/* ====================================
+   RESPONSIVE - APPLE STYLES
+   ==================================== */
+
+@media (max-width: 768px) {
+    .hero-headline {
+        font-size: 2em;
+    }
+
+    .hero-subheadline {
+        font-size: 1.1em;
+    }
+
+    .value-statement {
+        font-size: 1.2em;
+    }
+
+    .project-title {
+        font-size: 1.6em;
+    }
+
+    .focus-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5em;
+    }
+}
