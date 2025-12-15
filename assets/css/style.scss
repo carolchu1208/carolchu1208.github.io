@@ -108,27 +108,36 @@ h1 {
     overflow: visible;
 }
 
-/* Ensure social icons display fully */
+/* Ensure social icons display fully and stack vertically */
 .social-media-list {
-    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.social-media-list li,
+.social-media-list li {
+    display: flex;
+    align-items: center;
+}
+
 .social-media-list a {
-    overflow: visible;
     display: inline-flex;
     align-items: center;
+    gap: 6px;
 }
 
 .social-media-list svg,
 .svg-icon,
 .site-footer svg,
 .site-header svg {
-    overflow: visible;
-    width: 16px;
-    height: 16px;
-    min-width: 16px;
-    min-height: 16px;
+    width: 20px !important;
+    height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+    flex-shrink: 0;
     display: inline-block;
     vertical-align: middle;
     fill: currentColor;
