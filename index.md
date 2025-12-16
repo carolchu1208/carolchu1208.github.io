@@ -34,9 +34,9 @@ title: ""
 </div>
 
 <div class="project-card" data-category="ai-llm">
-    <p class="card-highlight">Flagship Research</p>
+    <p class="card-highlight gold">Flagship Research</p>
     <h3 class="card-title">LLM-Based Multi-Agent Consumer Behavior Simulation</h3>
-    <p class="card-intro">Published research modeling complex consumer decisions and social dynamics using LLM-powered generative agents to pre-evaluate marketing strategies.</p>
+    <p class="card-intro">Built a virtual sandbox environment using LLM-powered autonomous agents to simulate consumer behavior and social dynamics. Agents make realistic purchase decisions, share word-of-mouth reviews, and respond to marketing interventions. Enables pre-testing marketing strategies before real-world deployment, reducing cost and risk. Published on arXiv with 6 co-authors.</p>
     <div class="card-image-box">
         <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent Simulation">
     </div>
@@ -49,7 +49,7 @@ title: ""
 <div class="project-card" data-category="healthcare">
     <p class="card-highlight gold">Award Winner</p>
     <h3 class="card-title">Prostate Cancer Prediction - ML Clinical Decision Support</h3>
-    <p class="card-intro">Award-winning ML model achieving 87% recall on 73,530 patients to reduce unnecessary biopsies while maintaining clinical safety standards.</p>
+    <p class="card-intro">Developed a Random Forest classifier with SMOTE oversampling to predict prostate cancer risk from clinical data. Achieved 87% recall on 73,530 patient records while maintaining clinical safety standards. Model helps physicians reduce unnecessary biopsies by 20-30%, potentially saving $150-300M annually in US healthcare costs. Bronze Prize at Clark University Analytics Competition.</p>
     <div class="card-image-box">
         <img src="assets/images/prostate-cancer-preview.jpg" alt="Prostate Cancer Prediction">
     </div>
@@ -60,9 +60,9 @@ title: ""
 </div>
 
 <div class="project-card" data-category="marketing">
-    <p class="card-highlight">Marketing Analytics</p>
+    <p class="card-highlight gold">TechAd ML Optimization</p>
     <h3 class="card-title">Ad Click Prediction - ML Model Optimization on Incomplete Data</h3>
-    <p class="card-intro">Optimized ML model achieving 81% F1-score despite 48% missing data, demonstrating 60% performance improvement through advanced PySpark ML techniques.</p>
+    <p class="card-intro">Built a Gradient Boosted Trees model using PySpark ML to predict ad click behavior from 10,000 customer interactions with 48% missing data. Applied median imputation, missing-value indicators, and cross-validated hyperparameter tuning. Achieved 81% F1-score with 60% performance improvement over baseline. Provides actionable insights for mobile-first, time-based ad targeting strategies.</p>
     <div class="card-image-box">
         <img src="assets/images/ad-click-preview.png" alt="Ad Click Prediction">
     </div>
