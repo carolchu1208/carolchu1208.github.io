@@ -975,6 +975,7 @@ h1, h2, h3 {
     flex: 1 1 0% !important;
     text-align: left;
     min-width: 0;
+    max-width: 500px;
 }
 
 /* Layer 1: Highlight label - small, gold/accent */
@@ -1017,8 +1018,8 @@ h1, h2, h3 {
 
 /* Layer 4: Image */
 .card-image-box {
-    flex: 0 0 280px !important;
-    width: 280px;
+    flex: 0 0 350px !important;
+    width: 350px;
     order: 2;
 }
 
