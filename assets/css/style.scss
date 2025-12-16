@@ -1273,8 +1273,9 @@ h1, h2, h3 {
 .skills-section {
     display: flex;
     justify-content: center;
-    gap: 4em;
+    gap: 3em;
     padding: 1.5em 2em 2.5em 2em;
+    flex-wrap: wrap;
 }
 
 .skill-col {

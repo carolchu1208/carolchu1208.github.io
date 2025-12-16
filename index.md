@@ -16,7 +16,11 @@ title: ""
     </div>
     <div class="skill-col">
         <h4>ML & AI</h4>
-        <p>PySpark, LLM Systems</p>
+        <p>Prompt Engineering, NLP, Fine-Tuning, Multi-Agent Simulation</p>
+    </div>
+    <div class="skill-col">
+        <h4>Dashboarding</h4>
+        <p>Google Analytics 360, Tableau, Looker Studio</p>
     </div>
     <div class="skill-col">
         <h4>Business</h4>
