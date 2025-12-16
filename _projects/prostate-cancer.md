@@ -67,8 +67,6 @@ status: Bronze Prize - Clark University Analytics Competition (April 2024)
 
 ### Model Comparison (5 Algorithms Tested)
 
-![Model Comparison](../assets/images/prostate-cancer-preview.jpg)
-
 | Model | Accuracy | Precision | Recall | F1-Score | Clinical Viability |
 |-------|----------|-----------|--------|----------|-------------------|
 | Logistic Regression | 74% | 76% | **70%** | 73% | ❌ Below 80% threshold |
