@@ -38,44 +38,50 @@ title: ""
 </div>
 
 <div class="project-card" data-category="ai-llm">
-    <p class="card-highlight gold">Flagship Research</p>
-    <h3 class="card-title">LLM-Based Multi-Agent Consumer Behavior Simulation</h3>
-    <p class="card-intro">Pre-deployment marketing strategy testing is expensive and resource-intensive. This project uses an LLM-based multi-agent sandbox to simulate consumer behavior and decision-making at scale. Published on arXiv as first author.</p>
-    <p class="card-tags">Prompt Engineering · Multi-Agent Simulation · Consumer Behavior · Word-of-Mouth · Marketing Science</p>
+    <div class="card-content">
+        <p class="card-highlight gold">Flagship Research</p>
+        <h3 class="card-title">LLM-Based Multi-Agent Consumer Behavior Simulation</h3>
+        <p class="card-intro">Pre-deployment marketing strategy testing is expensive and resource-intensive. This project uses an LLM-based multi-agent sandbox to simulate consumer behavior and decision-making at scale. Published on arXiv as first author.</p>
+        <p class="card-tags">Prompt Engineering · Multi-Agent Simulation · Consumer Behavior · Word-of-Mouth · Marketing Science</p>
+        <div class="card-buttons">
+            <a href="/projects/llm-simulation/" class="btn btn-primary">Learn More</a>
+            <a href="https://arxiv.org/abs/2510.18155" class="btn btn-outline" target="_blank">Read Paper</a>
+        </div>
+    </div>
     <div class="card-image-box">
         <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent Simulation">
-    </div>
-    <div class="card-buttons">
-        <a href="/projects/llm-simulation/" class="btn btn-primary">Learn More</a>
-        <a href="https://arxiv.org/abs/2510.18155" class="btn btn-outline" target="_blank">Read Paper</a>
     </div>
 </div>
 
 <div class="project-card" data-category="healthcare">
-    <p class="card-highlight gold">Award Winner</p>
-    <h3 class="card-title">Prostate Cancer Prediction - ML Clinical Decision Support</h3>
-    <p class="card-intro">Unnecessary prostate biopsies cost the US healthcare system $12B annually and put healthy patients at risk. This project built a machine learning model to pre-screen 73,530 patients and reduce unnecessary biopsies by 20-30%. Bronze Prize at Clark University Analytics Competition.</p>
-    <p class="card-tags">Healthcare ML · Clinical Decision Support · Random Forest · SMOTE · Class Imbalance</p>
+    <div class="card-content">
+        <p class="card-highlight gold">Award Winner</p>
+        <h3 class="card-title">Prostate Cancer Prediction - ML Clinical Decision Support</h3>
+        <p class="card-intro">Unnecessary prostate biopsies cost the US healthcare system $12B annually and put healthy patients at risk. This project built a machine learning model to pre-screen 73,530 patients and reduce unnecessary biopsies by 20-30%. Bronze Prize at Clark University Analytics Competition.</p>
+        <p class="card-tags">Healthcare ML · Clinical Decision Support · Random Forest · SMOTE · Class Imbalance</p>
+        <div class="card-buttons">
+            <a href="/projects/prostate-cancer/" class="btn btn-primary">Learn More</a>
+            <a href="https://github.com/carolchu1208/ML_ProstateCancerPrediction" class="btn btn-outline" target="_blank">GitHub</a>
+        </div>
+    </div>
     <div class="card-image-box">
         <img src="assets/images/prostate-cancer-preview.jpg" alt="Prostate Cancer Prediction">
-    </div>
-    <div class="card-buttons">
-        <a href="/projects/prostate-cancer/" class="btn btn-primary">Learn More</a>
-        <a href="https://github.com/carolchu1208/ML_ProstateCancerPrediction" class="btn btn-outline" target="_blank">GitHub</a>
     </div>
 </div>
 
 <div class="project-card" data-category="marketing">
-    <p class="card-highlight gold">TechAd ML Optimization</p>
-    <h3 class="card-title">Ad Click Prediction - ML Model Optimization on Incomplete Data</h3>
-    <p class="card-intro">Real-world marketing data is messy—48% missing values make accurate ad targeting difficult and wasteful. This project built a click prediction model that handles incomplete data and identifies which customers to target, when, and where. Achieved 81% F1-score with 60% improvement over baseline.</p>
-    <p class="card-tags">Marketing Analytics · PySpark ML · Feature Engineering · Missing Data · A/B Testing</p>
+    <div class="card-content">
+        <p class="card-highlight gold">TechAd ML Optimization</p>
+        <h3 class="card-title">Ad Click Prediction - ML Model Optimization on Incomplete Data</h3>
+        <p class="card-intro">Real-world marketing data is messy—48% missing values make accurate ad targeting difficult and wasteful. This project built a click prediction model that handles incomplete data and identifies which customers to target, when, and where. Achieved 81% F1-score with 60% improvement over baseline.</p>
+        <p class="card-tags">Marketing Analytics · PySpark ML · Feature Engineering · Missing Data · A/B Testing</p>
+        <div class="card-buttons">
+            <a href="/projects/ad-click-prediction/" class="btn btn-primary">Learn More</a>
+            <a href="https://github.com/carolchu1208/AdClickPrediction_ML_PySpark" class="btn btn-outline" target="_blank">GitHub</a>
+        </div>
+    </div>
     <div class="card-image-box">
         <img src="assets/images/ad-click-preview.png" alt="Ad Click Prediction">
-    </div>
-    <div class="card-buttons">
-        <a href="/projects/ad-click-prediction/" class="btn btn-primary">Learn More</a>
-        <a href="https://github.com/carolchu1208/AdClickPrediction_ML_PySpark" class="btn btn-outline" target="_blank">GitHub</a>
     </div>
 </div>
 

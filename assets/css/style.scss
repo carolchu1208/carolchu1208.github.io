@@ -959,13 +959,20 @@ h1, h2, h3 {
    ==================================== */
 
 .project-card {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 2em;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: 16px;
-    padding: 2.5em 2em;
+    padding: 2em;
     margin-bottom: 2em;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.card-content {
+    flex: 1;
+    text-align: left;
 }
 
 /* Layer 1: Highlight label - small, gold/accent */
@@ -993,26 +1000,23 @@ h1, h2, h3 {
 
 /* Layer 3: Intro - medium, muted */
 .card-intro {
-    font-size: 1em;
+    font-size: 0.95em;
     color: var(--text-muted);
-    margin: 0 0 1em 0;
+    margin: 0 0 0.8em 0;
     line-height: 1.6;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .card-tags {
-    font-size: 0.85em;
+    font-size: 0.8em;
     color: var(--accent-color);
-    margin: 0 0 1.5em 0;
+    margin: 0 0 1.2em 0;
     font-weight: 500;
 }
 
 /* Layer 4: Image */
 .card-image-box {
-    max-width: 500px;
-    margin: 0 auto 2em auto;
+    flex-shrink: 0;
+    width: 280px;
 }
 
 .card-image-box img {
@@ -1024,7 +1028,6 @@ h1, h2, h3 {
 /* Layer 5: Buttons */
 .card-buttons {
     display: flex;
-    justify-content: center;
     gap: 1em;
 }
 
@@ -1507,5 +1510,23 @@ h1, h2, h3 {
     .focus-tag {
         font-size: 0.85em;
         padding: 0.5em 1em;
+    }
+
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-content {
+        text-align: center;
+    }
+
+    .card-image-box {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .card-buttons {
+        justify-content: center;
     }
 }
