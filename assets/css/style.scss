@@ -1305,19 +1305,53 @@ h1, h2, h3 {
     font-size: 0.85em;
     font-weight: 600;
     color: var(--accent-color);
-    margin: 0 0 0.4em 0;
+    margin: 0;
     padding: 0.4em 1em;
     border: 1px solid var(--accent-color);
     border-radius: 20px;
     background: transparent;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-.skill-col p {
+.skill-col h4:hover {
+    background: var(--accent-color);
+    color: #ffffff;
+}
+
+.toggle-arrow {
+    font-size: 0.7em;
+    display: inline-block;
+    transition: transform 0.2s ease;
+    margin-right: 0.3em;
+}
+
+.skill-col.expanded .toggle-arrow {
+    transform: rotate(90deg);
+}
+
+.skill-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0;
+}
+
+.skill-col.expanded .skill-details {
+    max-height: 200px;
+    padding-top: 0.5em;
+}
+
+.skill-details p {
     font-size: 0.85em;
     color: var(--text-muted);
-    margin: 0;
+    margin: 0.2em 0;
+}
+
+.skill-details strong {
+    color: var(--text-dark);
 }
 
 /* ====================================

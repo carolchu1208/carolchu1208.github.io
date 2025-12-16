@@ -10,29 +10,42 @@ title: ""
 </div>
 
 <div class="skills-section">
-    <div class="skill-col">
-        <h4>Programming</h4>
-        <p>Python, R, SQL, PySpark</p>
+    <div class="skill-col expandable">
+        <h4><span class="toggle-arrow">▶</span> Analytics</h4>
+        <div class="skill-details">
+            <p><strong>Programming:</strong> Python, R, SQL, PySpark</p>
+            <p><strong>Data Pipelines:</strong> Databricks, ETL</p>
+        </div>
     </div>
-    <div class="skill-col">
-        <h4>LLM</h4>
-        <p>NLP, NLTK, Regex, SciPy, Tokenization, TF-IDF</p>
+    <div class="skill-col expandable">
+        <h4><span class="toggle-arrow">▶</span> LLM</h4>
+        <div class="skill-details">
+            <p>NLP, NLTK, Regex, SciPy, Tokenization, TF-IDF</p>
+        </div>
     </div>
-    <div class="skill-col">
-        <h4>ML</h4>
-        <p>Feature Engineering, Class Imbalance, Supervised/Unsupervised Models</p>
+    <div class="skill-col expandable">
+        <h4><span class="toggle-arrow">▶</span> ML</h4>
+        <div class="skill-details">
+            <p>Feature Engineering, Class Imbalance, Supervised/Unsupervised Models</p>
+        </div>
     </div>
-    <div class="skill-col">
-        <h4>Gen-AI</h4>
-        <p>Prompt Engineering, Multi-Agent Simulation, GenAI Workflow Automation</p>
+    <div class="skill-col expandable">
+        <h4><span class="toggle-arrow">▶</span> Gen-AI</h4>
+        <div class="skill-details">
+            <p>Prompt Engineering, Multi-Agent Simulation, GenAI Workflow Automation</p>
+        </div>
     </div>
-    <div class="skill-col">
-        <h4>Dashboarding</h4>
-        <p>Google Analytics 360, Tableau, Looker Studio</p>
+    <div class="skill-col expandable">
+        <h4><span class="toggle-arrow">▶</span> Dashboarding</h4>
+        <div class="skill-details">
+            <p>Google Analytics 360, Tableau, Looker Studio, PowerBI</p>
+        </div>
     </div>
-    <div class="skill-col">
-        <h4>Business</h4>
-        <p>Marketing, PR, Strategy</p>
+    <div class="skill-col expandable">
+        <h4><span class="toggle-arrow">▶</span> Business</h4>
+        <div class="skill-details">
+            <p>Marketing, PR, Strategy</p>
+        </div>
     </div>
 </div>
 
@@ -95,6 +108,7 @@ title: ""
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // Project filter functionality
     const filterButtons = document.querySelectorAll('.filter-button');
     const projectCards = document.querySelectorAll('.project-card');
 
@@ -113,6 +127,15 @@ document.addEventListener('DOMContentLoaded', function() {
                     card.classList.add('hidden');
                 }
             });
+        });
+    });
+
+    // Expandable skills functionality
+    const skillCols = document.querySelectorAll('.skill-col.expandable');
+    skillCols.forEach(col => {
+        const header = col.querySelector('h4');
+        header.addEventListener('click', function() {
+            col.classList.toggle('expanded');
         });
     });
 });
