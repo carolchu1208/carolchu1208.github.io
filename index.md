@@ -34,49 +34,44 @@ title: ""
 </div>
 
 <div class="project-card" data-category="ai-llm">
-    <div class="card-image-side">
+    <p class="card-label">Flagship Research</p>
+    <div class="card-image-box">
         <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent Simulation">
     </div>
-    <div class="card-content-side">
-        <p class="card-label">Flagship Research</p>
-        <h3 class="card-title">LLM-Based Multi-Agent Consumer Behavior Simulation</h3>
-        <p class="card-description">Published research modeling complex consumer decisions and social dynamics using LLM-powered generative agents to pre-evaluate marketing strategies.</p>
-        <p class="card-tech">Tech Stack: Python, DeepSeek API, Multi-threading, Agent-based Modeling</p>
-        <div class="card-buttons">
-            <a href="/projects/llm-simulation/" class="card-link">Learn More →</a>
-            <a href="https://arxiv.org/abs/2510.18155" class="card-link" target="_blank">Read Paper →</a>
-        </div>
+    <h3 class="card-title">LLM-Based Multi-Agent Consumer Behavior Simulation</h3>
+    <p class="card-tagline">Published research modeling consumer decisions using LLM-powered generative agents.</p>
+    <p class="card-meta">Published October 2025 on arXiv</p>
+    <div class="card-buttons">
+        <a href="/projects/llm-simulation/" class="btn btn-primary">Learn More</a>
+        <a href="https://arxiv.org/abs/2510.18155" class="btn btn-outline" target="_blank">Read Paper</a>
     </div>
 </div>
 
 <div class="project-card" data-category="healthcare">
-    <div class="card-image-side">
+    <p class="card-label highlight">Award Winner</p>
+    <div class="card-image-box">
         <img src="assets/images/prostate-cancer-preview.jpg" alt="Prostate Cancer Prediction">
     </div>
-    <div class="card-content-side">
-        <p class="card-label highlight">Award Winner</p>
-        <h3 class="card-title">Prostate Cancer Prediction - ML Clinical Decision Support</h3>
-        <p class="card-description">Award-winning ML model achieving 87% recall on 73,530 patients to reduce unnecessary biopsies while maintaining clinical safety standards.</p>
-        <p class="card-tech">Tech Stack: Python, Scikit-learn, Random Forest, SMOTE, GridSearchCV</p>
-        <div class="card-buttons">
-            <a href="/projects/prostate-cancer/" class="card-link">Learn More →</a>
-            <a href="https://github.com/carolchu1208/ML_ProstateCancerPrediction" class="card-link" target="_blank">Code →</a>
-        </div>
+    <h3 class="card-title">Cancer Prediction</h3>
+    <p class="card-tagline">ML clinical decision support. 87% recall.</p>
+    <p class="card-meta">Bronze Prize - Clark University Analytics Competition 2024</p>
+    <div class="card-buttons">
+        <a href="/projects/prostate-cancer/" class="btn btn-primary">Learn More</a>
+        <a href="https://github.com/carolchu1208/ML_ProstateCancerPrediction" class="btn btn-outline" target="_blank">GitHub</a>
     </div>
 </div>
 
 <div class="project-card" data-category="marketing">
-    <div class="card-image-side">
+    <p class="card-label">Marketing Analytics</p>
+    <div class="card-image-box">
         <img src="assets/images/ad-click-preview.png" alt="Ad Click Prediction">
     </div>
-    <div class="card-content-side">
-        <h3 class="card-title">Ad Click Prediction - ML Model Optimization on Incomplete Data</h3>
-        <p class="card-description">Optimized ML model achieving 81% F1-score despite 48% missing data, demonstrating 60% performance improvement through advanced PySpark ML techniques.</p>
-        <p class="card-tech">Tech Stack: PySpark ML, Gradient Boosted Trees, Feature Engineering, Cross-Validation</p>
-        <div class="card-buttons">
-            <a href="/projects/ad-click-prediction/" class="card-link">Learn More →</a>
-            <a href="https://github.com/carolchu1208/AdClickPrediction_ML_PySpark" class="card-link" target="_blank">Code →</a>
-        </div>
+    <h3 class="card-title">Ad Click Prediction</h3>
+    <p class="card-tagline">ML model optimization on incomplete data. 81% F1-score.</p>
+    <p class="card-meta">Production-Ready Model 2024</p>
+    <div class="card-buttons">
+        <a href="/projects/ad-click-prediction/" class="btn btn-primary">Learn More</a>
+        <a href="https://github.com/carolchu1208/AdClickPrediction_ML_PySpark" class="btn btn-outline" target="_blank">GitHub</a>
     </div>
 </div>
 
