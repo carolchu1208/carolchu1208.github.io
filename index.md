@@ -6,6 +6,7 @@ title: ""
 <div class="hero-visual">
     <h1 class="hero-title">Carol Chu</h1>
     <p class="hero-role">Marketing Science Professional</p>
+    <p class="hero-credentials">ex-Global HQ Marketing, Campaign Analyst | M.S. in Business Analytics | Data Analytics & Gen-AI Research</p>
     <p class="hero-tagline">Applying Data Analytics, Machine Learning and AI into actionable business insight.</p>
 </div>
 
