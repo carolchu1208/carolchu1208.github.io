@@ -1292,11 +1292,17 @@ h1, h2, h3 {
    ==================================== */
 
 .skills-section {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
     justify-content: center;
     gap: 1em;
     padding: 0.5em 2em 1.5em 2em;
-    flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+    .skills-section {
+        grid-template-columns: repeat(3, auto);
+    }
 }
 
 .skill-col {
@@ -1304,6 +1310,19 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.skill-col.expanded .skill-details {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background: var(--bg-main);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .skill-col h4 {
@@ -1342,13 +1361,14 @@ h1, h2, h3 {
 .skill-details {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease, padding 0.3s ease;
-    padding: 0;
+    opacity: 0;
+    transition: all 0.2s ease;
 }
 
 .skill-col.expanded .skill-details {
     max-height: 200px;
-    padding-top: 0.5em;
+    opacity: 1;
+    overflow: visible;
 }
 
 .skill-details p {
