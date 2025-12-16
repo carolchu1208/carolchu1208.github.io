@@ -874,8 +874,7 @@ h1, h2, h3 {
 
 .hero-visual {
     text-align: center;
-    padding: 3em 2em 2em 2em;
-    background: linear-gradient(180deg, var(--bg-main) 0%, #e8e6e1 100%);
+    padding: 3em 2em 1em 2em;
 }
 
 .hero-title {
@@ -911,7 +910,9 @@ h1, h2, h3 {
     text-align: center;
     padding: 4em 2em;
     background: var(--bg-card);
-    border-top: 1px solid var(--border-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0 12px 12px 12px;
+    margin-top: 0;
 }
 
 .section-label {
@@ -1024,9 +1025,7 @@ h1, h2, h3 {
 
 .focus-section {
     text-align: center;
-    padding: 3em 2em;
-    background: var(--bg-card);
-    border-top: 1px solid var(--border-color);
+    padding: 1.5em 2em;
 }
 
 .section-heading {
@@ -1060,9 +1059,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     gap: 4em;
-    padding: 3em 2em;
-    background: var(--bg-main);
-    border-top: 1px solid var(--border-color);
+    padding: 1.5em 2em 2.5em 2em;
 }
 
 .skill-col {
