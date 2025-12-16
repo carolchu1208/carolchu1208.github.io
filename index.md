@@ -28,7 +28,7 @@ title: ""
     </div>
 </div>
 
-## Projects
+## Applied Industrial Project
 
 <div class="project-filters">
     <button class="filter-button active" data-filter="all">All</button>
