@@ -1292,12 +1292,11 @@ h1, h2, h3 {
    ==================================== */
 
 .skills-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.8em 2em;
-    padding: 0.5em 3em 1.5em 3em;
-    max-width: 800px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.5em 2em 1.5em 2em;
+    flex-wrap: wrap;
 }
 
 .skill-col {
@@ -1356,6 +1355,7 @@ h1, h2, h3 {
     font-size: 0.8em;
     color: var(--text-muted);
     margin: 0.2em 0;
+    white-space: nowrap;
 }
 
 .skill-details strong {
