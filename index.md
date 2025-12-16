@@ -80,8 +80,6 @@ title: ""
     </div>
 </div>
 
-<p class="footer-note">© 2025 Carol Chu</p>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-button');
