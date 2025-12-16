@@ -1292,12 +1292,12 @@ h1, h2, h3 {
    ==================================== */
 
 .skills-section {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1em;
-    padding: 0.5em 1em 1.5em 1em;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8em 2em;
+    padding: 0.5em 3em 1.5em 3em;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .skill-col {
