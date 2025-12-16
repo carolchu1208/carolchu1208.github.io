@@ -1075,7 +1075,7 @@ h1, h2, h3 {
 
 .hero-visual {
     text-align: center;
-    padding: 3em 2em 1em 2em;
+    padding: 1.5em 2em 0.5em 2em;
 }
 
 .hero-title {
@@ -1273,24 +1273,30 @@ h1, h2, h3 {
 .skills-section {
     display: flex;
     justify-content: center;
-    gap: 3em;
-    padding: 1.5em 2em 2.5em 2em;
+    gap: 1em;
+    padding: 0.5em 2em 1.5em 2em;
     flex-wrap: wrap;
 }
 
 .skill-col {
     text-align: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 0.8em 1.2em;
 }
 
 .skill-col h4 {
-    font-size: 1em;
+    font-size: 0.85em;
     font-weight: 600;
-    color: var(--text-dark);
-    margin: 0 0 0.3em 0;
+    color: var(--accent-color);
+    margin: 0 0 0.2em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .skill-col p {
-    font-size: 0.9em;
+    font-size: 0.85em;
     color: var(--text-muted);
     margin: 0;
 }
