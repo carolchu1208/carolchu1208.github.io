@@ -130,12 +130,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Expandable skills functionality
+    // Expandable skills functionality (accordion - only one open at a time)
     const skillCols = document.querySelectorAll('.skill-col.expandable');
     skillCols.forEach(col => {
         const header = col.querySelector('h4');
         header.addEventListener('click', function() {
-            col.classList.toggle('expanded');
+            const isExpanded = col.classList.contains('expanded');
+            // Close all others first
+            skillCols.forEach(c => c.classList.remove('expanded'));
+            // Toggle clicked one
+            if (!isExpanded) {
+                col.classList.add('expanded');
+            }
         });
     });
 });
