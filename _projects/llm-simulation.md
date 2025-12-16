@@ -19,11 +19,11 @@ status: Published on arXiv
 
 ## 2. 🏗️ System Architecture & Agentic Workflow
 
-![System Architecture](../assets/images/llm-agents-preview.png)
+![System Architecture](/assets/images/llm-agents-preview.png)
 
 ### Experiment Flow
 
-![Experiment Flow](../assets/images/experiment_flow.jpg)
+![Experiment Flow](/assets/images/experiment_flow.jpg)
 
 ### A. Core Agent Components (The LLM "Brain")
 

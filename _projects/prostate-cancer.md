@@ -23,7 +23,7 @@ status: Bronze Prize - Clark University Analytics Competition (April 2024)
 
 ## 2. 🏗️ Data Pipeline & Feature Engineering
 
-![Methodology Flow](../assets/images/prostate-cancer-preview.jpg)
+![Methodology Flow](/assets/images/prostate-cancer-preview.jpg)
 
 ### A. Dataset Characteristics
 
