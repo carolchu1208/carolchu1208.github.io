@@ -63,7 +63,7 @@ title: ""
     <div class="card-content">
         <p class="card-highlight gold">Flagship Research</p>
         <h3 class="card-title">LLM-Based Multi-Agent Consumer Behavior Simulation</h3>
-        <p class="card-intro">Pre-deployment marketing strategy testing is expensive and resource-intensive. This project uses an LLM-based multi-agent sandbox to simulate consumer behavior and decision-making at scale. Published on arXiv as first author.</p>
+        <p class="card-intro">Pre-deployment marketing strategy testing is expensive and resource-intensive. This project uses an LLM-based multi-agent sandbox to simulate consumer behavior and decision-making at scale. Published at 2025 IEEE ICEBE (e-Business Engineering) conference.</p>
         <p class="card-tags">Prompt Engineering · Multi-Agent Simulation · Consumer Behavior · Word-of-Mouth · Marketing Science</p>
         <div class="card-buttons">
             <a href="/projects/llm-simulation/" class="btn btn-primary">Learn More</a>
