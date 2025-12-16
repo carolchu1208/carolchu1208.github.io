@@ -56,7 +56,7 @@ title: ""
 <div class="project-card" data-category="healthcare">
     <div class="card-content">
         <p class="card-highlight gold">Award Winner</p>
-        <h3 class="card-title">Prostate Cancer Prediction - ML Clinical Decision Support</h3>
+        <h3 class="card-title">Prostate Cancer Prediction - ML Clinical Diagnosis Support</h3>
         <p class="card-intro">Unnecessary prostate biopsies cost the US healthcare system $12B annually and put healthy patients at risk. This project built a machine learning model to pre-screen 73,530 patients and reduce unnecessary biopsies by 20-30%. Bronze Prize at Clark University Analytics Competition.</p>
         <p class="card-tags">Healthcare ML · Clinical Decision Support · Random Forest · SMOTE · Class Imbalance</p>
         <div class="card-buttons">
