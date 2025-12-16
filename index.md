@@ -11,38 +11,38 @@ title: ""
 
 <div class="skills-section">
     <div class="skill-col expandable">
-        <h4><span class="toggle-arrow">▶</span> Analytics</h4>
+        <h4>Analytics <span class="toggle-arrow">▼</span></h4>
         <div class="skill-details">
             <p><strong>Programming:</strong> Python, R, SQL, PySpark</p>
             <p><strong>Data Pipelines:</strong> Databricks, ETL</p>
         </div>
     </div>
     <div class="skill-col expandable">
-        <h4><span class="toggle-arrow">▶</span> LLM</h4>
+        <h4>LLM <span class="toggle-arrow">▼</span></h4>
         <div class="skill-details">
             <p>NLP, NLTK, Regex, SciPy, Tokenization, TF-IDF</p>
         </div>
     </div>
     <div class="skill-col expandable">
-        <h4><span class="toggle-arrow">▶</span> ML</h4>
+        <h4>ML <span class="toggle-arrow">▼</span></h4>
         <div class="skill-details">
             <p>Feature Engineering, Class Imbalance, Supervised/Unsupervised Models</p>
         </div>
     </div>
     <div class="skill-col expandable">
-        <h4><span class="toggle-arrow">▶</span> Gen-AI</h4>
+        <h4>Gen-AI <span class="toggle-arrow">▼</span></h4>
         <div class="skill-details">
             <p>Prompt Engineering, Multi-Agent Simulation, GenAI Workflow Automation</p>
         </div>
     </div>
     <div class="skill-col expandable">
-        <h4><span class="toggle-arrow">▶</span> Dashboarding</h4>
+        <h4>Dashboarding <span class="toggle-arrow">▼</span></h4>
         <div class="skill-details">
             <p>Google Analytics 360, Tableau, Looker Studio, PowerBI</p>
         </div>
     </div>
     <div class="skill-col expandable">
-        <h4><span class="toggle-arrow">▶</span> Business</h4>
+        <h4>Business <span class="toggle-arrow">▼</span></h4>
         <div class="skill-details">
             <p>Marketing, PR, Strategy</p>
         </div>

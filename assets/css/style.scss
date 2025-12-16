@@ -1291,13 +1291,17 @@ h1, h2, h3 {
 .skills-section {
     display: flex;
     justify-content: center;
-    gap: 2em;
+    align-items: flex-start;
+    gap: 1.5em;
     padding: 0.5em 2em 1.5em 2em;
     flex-wrap: wrap;
 }
 
 .skill-col {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skill-col h4 {
@@ -1322,14 +1326,14 @@ h1, h2, h3 {
 }
 
 .toggle-arrow {
-    font-size: 0.7em;
+    font-size: 0.65em;
     display: inline-block;
     transition: transform 0.2s ease;
-    margin-right: 0.3em;
+    margin-left: 0.3em;
 }
 
 .skill-col.expanded .toggle-arrow {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 
 .skill-details {
