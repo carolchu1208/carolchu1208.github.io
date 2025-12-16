@@ -1032,13 +1032,14 @@ h1, h2, h3 {
 
 .btn-primary {
     background: var(--accent-color);
-    color: #ffffff;
+    color: #ffffff !important;
     border: 2px solid var(--accent-color);
 }
 
 .btn-primary:hover {
     background: var(--accent-hover);
     border-color: var(--accent-hover);
+    color: #ffffff !important;
 }
 
 .btn-outline {
