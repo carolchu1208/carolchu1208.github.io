@@ -29,7 +29,7 @@ status: Production-Ready Model
 
 ## 2. 🏗️ Optimization Journey: Baseline → Production
 
-![Performance Improvement](../assets/images/ad-click-preview.png)
+![Click Through Rate Analysis](../assets/images/clickthroughrate.png)
 
 ### Baseline Approach → 51% F1-Score (Failed)
 

@@ -3,7 +3,7 @@ layout: project
 title: LLM-Based Multi-Agent Consumer Behavior Simulation
 summary: Published research modeling complex consumer decisions and social dynamics using LLM-powered generative agents to pre-evaluate marketing strategies.
 tags: [Gen-AI Research, Marketing Science, LLM, Agentic AI, Simulation]
-tech_stack: [Python, DeepSeek API, Multi-threading, Agent-based Modeling, JSON Output Parsing]
+tech_stack: [Python, DeepSeek API, Multi-threading, Agent-based Modeling, JSON Output Parsing, Prompt Engineering]
 github_repo: https://github.com/carolchu1208/LLM-Based-Generative-Agents-Simulating-Consumer-Decisions
 paper_link: https://arxiv.org/abs/2510.18155
 status: Published on arXiv
@@ -20,6 +20,10 @@ status: Published on arXiv
 ## 2. 🏗️ System Architecture & Agentic Workflow
 
 ![System Architecture](../assets/images/llm-agents-preview.png)
+
+### Experiment Flow
+
+![Experiment Flow](../assets/images/experiment_flow.jpg)
 
 ### A. Core Agent Components (The LLM "Brain")
 
