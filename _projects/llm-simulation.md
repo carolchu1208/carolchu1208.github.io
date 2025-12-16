@@ -121,7 +121,7 @@ This framework enables marketing teams to:
 
 ## 6. 📝 Publication & Recognition
 
-**Paper:** Chu, M., Terhorst, L., Reed, K., Ni, T., Chen, W., & Lin, R. (2025). *LLM-Based Multi-Agent System for Simulating and Analyzing Marketing and Consumer Behavior.* arXiv preprint arXiv:2510.18155.
+**Paper:** Chu, M., Terhorst, L., Reed, K., Ni, T., Chen, W., & Lin, R. (2025). *LLM-Based Multi-Agent System for Simulating and Analyzing Marketing and Consumer Behavior.* arXiv preprint arXiv:2510.18155. Published October 2025.
 
 **Citation:**
 ```bibtex

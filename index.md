@@ -22,7 +22,7 @@ title: ""
     <div class="flagship-image-container">
         <img src="assets/images/llm-agents-preview.png" alt="LLM Agent Sandbox" class="flagship-image">
     </div>
-    <p class="flagship-meta">Published October 2024 on arXiv</p>
+    <p class="flagship-meta">Published October 2025 on arXiv</p>
 </div>
 
 <div class="products-grid">
@@ -80,4 +80,4 @@ title: ""
     </div>
 </div>
 
-<p class="footer-note">© 2024 Carol Chu</p>
+<p class="footer-note">© 2025 Carol Chu</p>
