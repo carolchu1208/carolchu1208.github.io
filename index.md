@@ -40,7 +40,7 @@ title: ""
 <div class="project-card" data-category="ai-llm">
     <p class="card-highlight gold">Flagship Research</p>
     <h3 class="card-title">LLM-Based Multi-Agent Consumer Behavior Simulation</h3>
-    <p class="card-intro">Built a virtual sandbox environment using LLM-powered autonomous agents to simulate consumer behavior and social dynamics. Agents make realistic purchase decisions, share word-of-mouth reviews, and respond to marketing interventions. Enables pre-testing marketing strategies before real-world deployment, reducing cost and risk. Published on arXiv with 6 co-authors.</p>
+    <p class="card-intro">Built a virtual sandbox environment using LLM-powered autonomous agents to simulate consumer behavior and social dynamics. Agents make realistic purchase decisions, share word-of-mouth reviews, and respond to marketing interventions. Enables pre-testing marketing strategies before real-world deployment, reducing cost and risk. Published on arXiv as first author.</p>
     <div class="card-image-box">
         <img src="assets/images/llm-agents-preview.png" alt="LLM Multi-Agent Simulation">
     </div>
