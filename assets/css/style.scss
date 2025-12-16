@@ -959,8 +959,9 @@ h1, h2, h3 {
    ==================================== */
 
 .project-card {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
     gap: 2em;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
@@ -971,8 +972,9 @@ h1, h2, h3 {
 }
 
 .card-content {
-    flex: 1;
+    flex: 1 1 0% !important;
     text-align: left;
+    min-width: 0;
 }
 
 /* Layer 1: Highlight label - small, gold/accent */
@@ -1015,8 +1017,9 @@ h1, h2, h3 {
 
 /* Layer 4: Image */
 .card-image-box {
-    flex-shrink: 0;
+    flex: 0 0 280px !important;
     width: 280px;
+    order: 2;
 }
 
 .card-image-box img {
