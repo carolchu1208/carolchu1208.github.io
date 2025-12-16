@@ -15,8 +15,16 @@ title: ""
         <p>Python, R, SQL, PySpark</p>
     </div>
     <div class="skill-col">
-        <h4>ML & AI</h4>
-        <p>Prompt Engineering, NLP, Fine-Tuning, Multi-Agent Simulation</p>
+        <h4>LLM</h4>
+        <p>NLP, NLTK, Regex, SciPy, Tokenization, TF-IDF</p>
+    </div>
+    <div class="skill-col">
+        <h4>ML</h4>
+        <p>Feature Engineering, Class Imbalance, Supervised/Unsupervised Models</p>
+    </div>
+    <div class="skill-col">
+        <h4>Gen-AI</h4>
+        <p>Prompt Engineering, Multi-Agent Simulation, GenAI Workflow Automation</p>
     </div>
     <div class="skill-col">
         <h4>Dashboarding</h4>
