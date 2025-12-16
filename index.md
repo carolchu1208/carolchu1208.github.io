@@ -11,8 +11,8 @@ title: ""
 
 <div class="skills-section">
     <div class="skill-col">
-        <h4>Analytics</h4>
-        <p>Python, R, SQL</p>
+        <h4>Programming</h4>
+        <p>Python, R, SQL, PySpark</p>
     </div>
     <div class="skill-col">
         <h4>ML & AI</h4>
